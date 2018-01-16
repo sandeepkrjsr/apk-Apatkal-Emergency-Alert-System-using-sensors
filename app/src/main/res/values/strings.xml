@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OGDH</string>
+    <string name="permdesc_flashlight">"Flash"</string>
+</resources>

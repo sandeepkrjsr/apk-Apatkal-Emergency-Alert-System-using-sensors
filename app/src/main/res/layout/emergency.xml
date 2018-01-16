@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calling\nin..."
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/timing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/callnow"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            android:textSize="25dp"
+            android:background="#0088ff"
+            android:textColor="#fff"
+            android:padding="10dp"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="25dp"
+            android:background="#0088ff"
+            android:textColor="#fff"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

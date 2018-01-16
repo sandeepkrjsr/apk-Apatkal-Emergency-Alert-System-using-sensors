@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your favourite contacts"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/contact1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact 1"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/contact2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact 2"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/contact3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact 3"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/favourites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#0088ff"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>

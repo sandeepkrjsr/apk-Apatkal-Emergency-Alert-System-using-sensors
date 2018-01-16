@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "11451281963",
+    "firebase_url": "https://ogdh-afe4d.firebaseio.com",
+    "project_id": "ogdh-afe4d",
+    "storage_bucket": "ogdh-afe4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11451281963:android:79b35960782eb679",
+        "android_client_info": {
+          "package_name": "com.kodexlabs.ogdh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11451281963-tgf5pqit37u8ml0thbo2kijjdqa2a3q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfDVUlQFfW4k63flyyREiWYK3i9A843Ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
